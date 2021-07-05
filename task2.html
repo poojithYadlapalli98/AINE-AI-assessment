@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body {font-family: "Lato", sans-serif;}
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:whitesmoke;
+  overflow-x: hidden;
+  padding-top: 16px;
+  border:1.cm grey;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  background-color:#b8e1e2;
+}
+
+.main {
+  margin-left: 145px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  background-color: rgba(230, 224, 224, 0.514);
+}
+ .bg {
+     
+    padding: 15px 18px 15px 9px ;
+    background-color: white;
+    width: 100%;
+    height: 25%;
+    display: block;
+    align-items: center;
+} 
+.in{
+    width: 100%;
+    align-items: center;
+    height: 25%;
+    display: block;
+    padding: 15px 18px 15px 9px ;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 170px;
+}
+.txt{
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 800px;
+
+}
+.up{
+  
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 170px;
+    padding: 60px 40px 60px 30px ;
+    background-color: white;
+  
+    
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <a  href="#home"><span style="padding-left: 20px;"><i  class="fa fa-assistive-listening-systems" style="font-size:36px"></i></span></a><br>
+  <a href="#services"><span style="padding-left: 20px;"><i class="fa fa-user-o" style="font-size:36px"></i></span><br> <span style="font-size:20px ;">Students</span></a><br>
+  <a href="#clients"><span style="padding-left: 20px;"><i class="fa fa-credit-card" style="font-size:36px"></i></span> <br><span style="font-size:20px ;">Lesson Plan</span></a><br>
+  <a href="#contact"><span style="padding-left: 20px;"><i class="fa fa-gear" style="font-size:36px;"></i></span><br> <span style="font-size:20px ;">Settings</span></a><br>
+
+</div>
+<div class="main">
+    <br><br><br><br><br>
+    <span class="bg"><i class="fa fa-caret-square-o-left" style="font-size:36px">&nbsp;<span style="font-weight: 600;color: grey;">Videos</span></i></span><br>
+ <input class="in" type="text" placeholder="Insert URL here"><br>
+ <span  class="txt">or</span><br><br>
+ <input class="up" type="text" placeholder="upload">
+
+
+</div>
+
+ 
+</body>
+</html> 
